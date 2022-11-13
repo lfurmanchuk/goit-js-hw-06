@@ -29,7 +29,7 @@ const imageEl = images
 console.log(imageEl);
 galleryEl.insertAdjacentHTML("afterbegin", imageEl);
 
-const listEl = document.querySelector('.gallery')
+const listEl = document.querySelector(".gallery")
 console.log(listEl)
 
 const itemEl = images
@@ -37,6 +37,6 @@ const itemEl = images
   .join("");
 console.log(itemEl)
 
-listEl.insertAdjacentHTML('afterbegin', itemEl);
+listEl.insertAdjacentHTML("afterbegin", itemEl);
 
 
